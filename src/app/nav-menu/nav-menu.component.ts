@@ -11,13 +11,4 @@ export class NavMenuComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  collapse() {
-    this.isExpanded = false;
-  }
-
-  toggle() {
-    this.isExpanded = !this.isExpanded;
-  }
-
 }

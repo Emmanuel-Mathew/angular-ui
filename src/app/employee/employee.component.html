@@ -107,7 +107,7 @@
 
 <br />
 
-<table id="employeetable" datatable [dtOptions]="dtOptions" class="table table-striped table-hover" aria-labelledby="tableLabel">
+<table *ngIf="dtOptions"  id="employeetable" datatable [dtOptions]="dtOptions" class="table table-striped table-hover" aria-labelledby="tableLabel">
   <thead>
     <tr>
       <th>Employee</th>
