@@ -11,7 +11,6 @@ import { NgForm } from '@angular/forms';
 
 export class EmployeeComponent implements OnInit {
 
-  msg: string;
   dtOptions: DataTables.Settings = {};
   btnText: string;
   btnClass: string;
